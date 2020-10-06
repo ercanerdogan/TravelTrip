@@ -1,0 +1,21 @@
+﻿@using travelTrip.Models
+@model List<AboutPage>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+    <div class="content">
+        <div class="wrap">
+            <div class="about">
+                <h3>About</h3>
+
+                @foreach (var aboutContent in Model)
+                {
+                    <img src="@aboutContent.ImgUrl" alt="" />
+                    <p>@aboutContent.Description</p>
+                }
+
+            </div>
+        </div>
+    </div>

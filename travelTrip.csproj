@@ -127,6 +127,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -149,6 +151,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blogTemplate\about.html" />
+    <Content Include="blogTemplate\contact.html" />
+    <Content Include="blogTemplate\css\bootstrap.css" />
+    <Content Include="blogTemplate\css\style.css" />
+    <Content Include="blogTemplate\images\avatar.png" />
+    <Content Include="blogTemplate\images\icon3.png" />
+    <Content Include="blogTemplate\images\logo.jpg" />
+    <Content Include="blogTemplate\images\man.jpg" />
+    <Content Include="blogTemplate\images\more.png" />
+    <Content Include="blogTemplate\images\post1.jpg" />
+    <Content Include="blogTemplate\images\post2.jpg" />
+    <Content Include="blogTemplate\images\post3.jpg" />
+    <Content Include="blogTemplate\images\search.png" />
+    <Content Include="blogTemplate\index.html" />
+    <Content Include="blogTemplate\js\easing.js" />
+    <Content Include="blogTemplate\js\jquery.min.js" />
+    <Content Include="blogTemplate\js\move-top.js" />
+    <Content Include="blogTemplate\single.html" />
+    <Content Include="blogTemplate\w3layouts-License.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -222,6 +243,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Default\About.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
